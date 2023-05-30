@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: 5th Games, Agents, and Incentives Workshop
+title: Personal Website of Ben Abramowitz
 
 # Short description of your site
-description: GAIW@AAMAS 2023
+description: Website of Ben Abramowitz
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -21,9 +21,8 @@ description: GAIW@AAMAS 2023
 # List of links in the navigation bar
 navbar-links:
   Welcome to GAIW 2023: "index"
-  Submission: "submission"
-  Program: "program"
-  Organization: "organization"
+  Research: "research"
+  Blog: "blog"
 
 collections:
   papers:
@@ -63,8 +62,8 @@ footer-link-col: "#FFFFFF"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: GAIW 2023 Team
+#author:
+  #name: Ben Abramowitz
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -97,7 +96,7 @@ author:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "preflib.github.io/gaiw2023/"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "BenAbramowitz.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
