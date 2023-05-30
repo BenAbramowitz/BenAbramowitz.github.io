@@ -1,5 +1,5 @@
-# Website for GAIW 2023 @ AAMAS 2023
+# Personal Website for Ben Abramowitz
 
-Please go here to see the website: https://preflib.github.io/gaiw2023/
+Please go here to see the website: BenAbramowitz.github.io
 
 To run locally, install Jekyll and run: `bundle exec jekyll serve`
