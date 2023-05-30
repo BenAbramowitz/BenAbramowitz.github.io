@@ -20,7 +20,7 @@ description: Website of Ben Abramowitz
 
 # List of links in the navigation bar
 navbar-links:
-  Welcome to GAIW 2023: "index"
+  Main: "index"
   Research: "research"
   Blog: "blog"
 
