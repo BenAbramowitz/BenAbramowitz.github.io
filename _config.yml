@@ -259,8 +259,8 @@ plugins:
   - jekyll-relative-links
 
 relative_links:
-  enabled: true
-  collections: true
+  enabled: false
+  collections: false
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
