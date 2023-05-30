@@ -23,6 +23,7 @@ navbar-links:
   Main: "index"
   Research: "research"
   Blog: "blog"
+  CV: "CV"
 
 collections:
   papers:
