@@ -4,7 +4,6 @@ title: Everything You Wanted To Know About Ben
 subtitle: And Some Stuff You Didn't
 published: true
 ---
-<p style="text-align:center;"><img src="{{ 'img/gaiwcover.png' | relative_url }}" /></p>
 
 
 ## About Me
