@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+    span.s3 {-webkit-text-stroke: 0px #000000}
+    span.s4 {font: 12.0px Symbol; text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #0000e9}
+    span.s5 {text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #0000e9}
+    span.s6 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">--- layout: base --- {% include header.html type="post" %}</span></p>
+<p class="p1"><span class="s1">{% if page.gh-repo %} {% assign gh_split = page.gh-repo | split:'/' %} {% assign gh_user = gh_split[0] %} {% assign gh_repo = gh_split[1] %}</span></p>
+<p class="p1"><span class="s1">{% if page.gh-badge.size &gt; 0 %} {% for badge in page.gh-badge %} {% case badge %} {% when 'star'%} {% when 'watch'%} {% when 'fork'%} {% when 'follow'%} {% endcase %} {% endfor %} {% endif %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1">{{ content }}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% if page.tags.size &gt; 0 %}</span></p>
+<p class="p1"><span class="s1">Tags: {% if site.link-tags %} {% for tag in page.tags %} <a href="file:///Users/benabramowitz/Documents/Personal/Career%20Development/BenAbramowitz.github.io/_layouts/%7B%7B%20'/tags'%20%7C%20relative_url%20%7D%7D#%7B%7B-%20tag%20-%7D%7D"><span class="s2">{{- tag -}}</span></a> {% endfor %} {% else %} {{ page.tags | join: ", " }} {% endif %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% endif %} {% if page.social-share %} {% include social-share.html %} {% endif %}</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s1">{% if page.previous.url %}</span></li>
+  <li class="li2"><span class="s3"><a href="file:///Users/benabramowitz/Documents/Personal/Career%20Development/BenAbramowitz.github.io/_layouts/%7B%7B%20page.previous.url%20%7C%20relative_url%20%7D%7D"><span class="s4">←</span><span class="s5"> Previous Post</span></a></span><span class="s6"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s1">{% endif %} {% if page.next.url %}</span></li>
+  <li class="li2"><span class="s3"><a href="file:///Users/benabramowitz/Documents/Personal/Career%20Development/BenAbramowitz.github.io/_layouts/%7B%7B%20page.next.url%20%7C%20relative_url%20%7D%7D"><span class="s5">Next Post </span><span class="s4">→</span></a></span><span class="s6"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s1">{% endif %}<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<p class="p1"><span class="s1">{% if page.comments %}</span></p>
+<p class="p1"><span class="s1">{% include disqus.html %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% include fb-comment.html %}</span></p>
+<p class="p1"><span class="s1">{% include staticman-comments.html %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% include just_comments.html %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% endif %}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
