@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-This website is currently under construction. If you are looking to hire me, please refer to my [LinkedIn](https://www.linkedin.com/in/benjabramowitz/) for now.
+My website is currently under construction. If you are looking to hire me, please refer to my [LinkedIn](https://www.linkedin.com/in/benjabramowitz/) for now.
 
 
 
