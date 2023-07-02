@@ -3,7 +3,7 @@ title: "Flexible Representative Democracy"
 collection: publications
 permalink: /publication/frd
 excerpt: 'Introducing Flexible Representative Democracy'
-year: '2019'
+date: 2018-11-07
 venue: 'IJCAI'
 paperurl: 'https://arxiv.org/abs/1811.02921'
 ---
