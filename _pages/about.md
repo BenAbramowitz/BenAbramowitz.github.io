@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My website is currently getting revamped. Here are the basics for now until I finish things up:
+My website is currently getting revamped. My publications page is up, but the rest is under construction. Here are the basics for now until I finish things up:
 
 
 #### [Resume](http://BenAbramowitz.github.io/files/Resume_website.pdf)
