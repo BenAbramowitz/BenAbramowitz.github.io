@@ -2,7 +2,7 @@
 title: "In the Beginning there were n Agents: Founding and Amending a Constitution"
 collection: publications
 permalink: /publication/beginning
-excerpt: 'An axiomatic approach to founding and amending constitution'
+excerpt: 'An axiomatic approach to founding and amending constitutions'
 date: 2021-11-03
 venue: 'ADT'
 paperurl: 'https://arxiv.org/abs/2011.03111'
