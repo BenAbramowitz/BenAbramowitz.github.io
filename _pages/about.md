@@ -3,13 +3,10 @@ permalink: /
 title: "About Me"
 excerpt: "About me"
 author_profile: true
----
-<!--
 redirect_from: 
-  #- /about/
-  #- /about.html
-  -->
-
+  - /about/
+  - /about.html
+---
 
 My website is currently getting revamped. Here are the basics for now until I finish things up:
 
