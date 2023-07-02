@@ -3,7 +3,7 @@ title: "Utilitarians Without Utilities: Maximizing Social Welfare for Graph Prob
 collection: publications
 permalink: /publication/UWU
 excerpt: 'This paper describes a class of problems where the goal is to form a subgraph from the edges of a graph, subject to a set of constraints, such that the sum of edge weights is maximized. The key difficulty is that the edge weights are unknown.'
-year: '2018'
+date: 2017-11-28
 venue: 'AAAI'
 paperurl: 'https://arxiv.org/abs/1711.10588'
 ---
