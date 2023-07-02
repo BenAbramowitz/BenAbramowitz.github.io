@@ -3,7 +3,7 @@ title: "Awareness of Voter Passion Greatly Improves the Distortion of Metric Soc
 collection: publications
 permalink: /publication/passion
 excerpt: 'Even a small amount of cardinal preference information (in the form of preference intensities) can greatly reduce metric distortion.'
-year: 2019
+date: 2019-06-25
 venue: 'WINE'
 paperurl: 'https://arxiv.org/abs/1906.10562'
 ---
