@@ -9,6 +9,8 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+This page may not include all recent publications. The most up-to-date repository of my work is always arXiv.
+
 {% include base_path %}
 
 {% for post in site.publications reversed %}
