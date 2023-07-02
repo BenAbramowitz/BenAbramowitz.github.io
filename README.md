@@ -1,6 +1,8 @@
 # README
 The personal website of Ben Abramowitz.
 
+The website is currently under construction. Please refer to my [LinkedIn](www.linkedin.com/in/benjabramowitz)
+
 
 
 ## Acknowledgments
