@@ -14,7 +14,7 @@ My website is currently getting revamped. My publications page is up, but the re
 I am currently a Postdoctoral Research Fellow at Tulane University funded by a Computing Innovations Fellowship (CIFellows) from the Computing Research Association. My research is concentrated in the areas of Algorithmic Game Theory, Mechanism Design, Computational Social Choice, and Approximation Algorithms. My work regularly uses tools from Complexity Theory, Game Theory, Graph Theory, Algorithm Design, Statistical Inference, and Machine Learning. My preferred programming language is Python (PyTorch, Pandas, Numpy, Matplotlib, Seaborn), and I have far too much experience with LaTeX.
 
 ### Goals:
-I am currently on the job market looking primarily for research and analyst positions. I am open to remote and in-person work, and willing to relocate within the US.
+I am currently on the job market looking primarily for research positions. I am willing to relocate within the US and open to remote work.
 
 
 #### [Resume](http://BenAbramowitz.github.io/files/Resume_website.pdf)
