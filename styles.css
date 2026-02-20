@@ -1,0 +1,415 @@
+/* ===========================
+   Global Styles
+   =========================== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #222;
+    background: #fafafa;
+}
+
+a {
+    color: #1a5276;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   Header & Navigation
+   =========================== */
+header {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+header .header-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+header .site-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+
+header .site-title:hover {
+    text-decoration: none;
+    color: #aed6f1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #d6eaf8;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.03em;
+    transition: color 0.15s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* ===========================
+   Main Content
+   =========================== */
+main {
+    max-width: 900px;
+    margin: 2.5rem auto 4rem;
+    padding: 0 2rem;
+}
+
+/* ===========================
+   Home Page
+   =========================== */
+.profile {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 220px;
+    background: #d5dbdb;
+    border-radius: 4px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 0.85rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #bfc9ca;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.profile-bio h1 {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+    color: #1a3a5c;
+}
+
+.profile-bio .position {
+    font-size: 1.05rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.profile-bio p {
+    margin-bottom: 0.9rem;
+}
+
+.contact-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.contact-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: #1a5276;
+    border: 1px solid #aed6f1;
+    padding: 0.25rem 0.7rem;
+    border-radius: 3px;
+    transition: background 0.15s;
+}
+
+.contact-links a:hover {
+    background: #eaf4fc;
+    text-decoration: none;
+}
+
+/* ===========================
+   Section Headings
+   =========================== */
+h2.section-title {
+    font-size: 1.5rem;
+    color: #1a3a5c;
+    border-bottom: 2px solid #aed6f1;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.4rem;
+}
+
+/* ===========================
+   Paper / Blog Lists
+   =========================== */
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    color: #1a3a5c;
+    border-bottom: 2px solid #aed6f1;
+    padding-bottom: 0.4rem;
+}
+
+.page-header p {
+    margin-top: 0.6rem;
+    color: #555;
+    font-size: 0.97rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paper-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.paper-item {
+    border-left: 4px solid #aed6f1;
+    padding: 0.8rem 0 0.8rem 1.2rem;
+}
+
+.paper-item .paper-title {
+    font-size: 1.07rem;
+    font-weight: bold;
+    color: #1a3a5c;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.paper-item .paper-title a {
+    color: inherit;
+}
+
+.paper-item .paper-title a:hover {
+    color: #2e86c1;
+}
+
+.paper-item .paper-meta {
+    font-size: 0.88rem;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.paper-item .paper-abstract {
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 0.4rem;
+}
+
+.paper-item .paper-links {
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.paper-item .paper-links a {
+    font-size: 0.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a5276;
+    background: #eaf4fc;
+    border: 1px solid #aed6f1;
+    padding: 0.15rem 0.6rem;
+    border-radius: 3px;
+}
+
+.paper-item .paper-links a:hover {
+    background: #d6eaf8;
+    text-decoration: none;
+}
+
+/* Working paper status badge */
+.badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fdebd0;
+    color: #a04000;
+    border: 1px solid #f0b27a;
+    border-radius: 3px;
+    padding: 0.1rem 0.5rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+/* ===========================
+   Blog Posts
+   =========================== */
+.blog-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.blog-item {
+    border-bottom: 1px solid #d5d8dc;
+    padding-bottom: 1.8rem;
+}
+
+.blog-item:last-child {
+    border-bottom: none;
+}
+
+.blog-item .blog-date {
+    font-size: 0.85rem;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.25rem;
+}
+
+.blog-item .blog-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a3a5c;
+    margin-bottom: 0.4rem;
+}
+
+.blog-item .blog-title a {
+    color: inherit;
+}
+
+.blog-item .blog-title a:hover {
+    color: #2e86c1;
+}
+
+.blog-item .blog-tags {
+    margin-bottom: 0.5rem;
+}
+
+.blog-item .blog-tags span {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eaf4fc;
+    color: #1a5276;
+    border: 1px solid #aed6f1;
+    border-radius: 3px;
+    padding: 0.1rem 0.5rem;
+    margin-right: 0.35rem;
+}
+
+.blog-item .blog-excerpt {
+    font-size: 0.97rem;
+    color: #444;
+}
+
+.blog-item .read-more {
+    display: inline-block;
+    margin-top: 0.6rem;
+    font-size: 0.88rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a5276;
+}
+
+/* ===========================
+   Recent section on Home
+   =========================== */
+.recent-section {
+    margin-top: 2rem;
+}
+
+.recent-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.recent-section li {
+    padding-left: 1rem;
+    border-left: 3px solid #d6eaf8;
+}
+
+.recent-section li .item-title {
+    font-weight: bold;
+    color: #1a3a5c;
+}
+
+.recent-section li .item-meta {
+    font-size: 0.85rem;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.view-all-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===========================
+   Footer
+   =========================== */
+footer {
+    text-align: center;
+    padding: 1.4rem 2rem;
+    font-size: 0.85rem;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #e0e0e0;
+    background: #f4f4f4;
+}
+
+/* ===========================
+   Responsive
+   =========================== */
+@media (max-width: 600px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile-photo {
+        width: 140px;
+        height: 170px;
+    }
+
+    header .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+}
